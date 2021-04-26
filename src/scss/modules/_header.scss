@@ -1,83 +1,273 @@
-header {
-    height: 800px;
-    background-image: url('../../../public/images/banner1.jpg');
-    background-color: grey;
-    background-size: cover;
-    background-blend-mode: multiply;
-    .navbar {
-        display: flex;
-        justify-content: space-evenly;
+@media (min-width:1024px) {    
+    header {
+        height: 800px;
+        background-image: url('../../../public/images/banner1.jpg');
+        background-color: grey;
+        background-size: cover;
+        background-blend-mode: multiply;
         .navbar {
-            border-top: solid 1px white;
-            border-bottom: solid 1px white;
-            padding: 1rem;
-            ul {
-                display: flex;
-                margin: 0rem;
-                padding: 0rem;
-                li {
-                    list-style-type: none;
-                    a {
-                        padding: 1rem;
-                        color: white;
-                        text-decoration: none;
+            display: flex;
+            justify-content: space-evenly;
+            .navbar {
+                border-top: solid 1px white;
+                border-bottom: solid 1px white;
+                padding: 1rem;
+                ul {
+                    display: flex;
+                    margin: 0rem;
+                    padding: 0rem;
+                    li {
+                        list-style-type: none;
+                        a {
+                            padding: 1rem;
+                            color: white;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            background-color: $button;
+                        }
                     }
-                    a:hover {
-                        background-color: $button;
-                    }
                 }
             }
         }
-    }
-    .title {
-        height: 700px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-evenly;
-        .header_title {
-            width: 40%;
-            text-align: center;
-            color: white;
-            h1 {
-                font-size: 55px;
-                font-family: 'Courgette', cursive;
-                #taste {
-                    color: $taste;
-                }
-                .gras {
-                    font-weight: bold;
-                }
-            }
-        }
-    }
-    .header_buttons {
-        width: 40%;
-        display: flex;
-        justify-content: space-evenly;
-        button {
-            padding-right: 2rem;
-            padding-left: 2rem;
-            padding-top: 1rem;
-            padding-bottom: 1rem;
-            border-radius: 30px;
-            border-color: transparent;
-            a {
-                text-decoration: none;
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-        }
-        #one {
-            a {
-                color: black;
-            }
-        }
-        #two {
-            background-color: $button;
-            a {
+        .title {
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .header_title {
+                width: 40%;
+                text-align: center;
                 color: white;
+                h1 {
+                    font-size: 55px;
+                    font-family: 'Courgette', cursive;
+                    #taste {
+                        color: $taste;
+                    }
+                    .gras {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .header_buttons {
+            width: 40%;
+            display: flex;
+            justify-content: space-evenly;
+            button {
+                padding-right: 2rem;
+                padding-left: 2rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-radius: 30px;
+                border-color: transparent;
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            #one {
+                a {
+                    color: black;
+                }
+            }
+            #two {
+                background-color: $button;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1023px) and (min-width: 600px) {
+    header {
+        height: 900px;
+        background-image: url('../../../public/images/banner1.jpg');
+        background-color: grey;
+        background-size: cover;
+        background-blend-mode: multiply;
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            .navbar {
+                border-top: solid 1px white;
+                border-bottom: solid 1px white;
+                padding: 1rem;
+                ul {
+                    display: flex;
+                    margin: 0rem;
+                    padding: 0rem;
+                    li {
+                        list-style-type: none;
+                        font-size: 15px;
+                        a {
+                            padding: 1rem;
+                            color: white;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            background-color: $button;
+                        }
+                    }
+                }
+            }
+            .navbar_logo {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+        .title {
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .header_title {
+                width: 40%;
+                text-align: center;
+                color: white;
+                h1 {
+                    font-size: 35px;
+                    font-family: 'Courgette', cursive;
+                    #taste {
+                        color: $taste;
+                    }
+                    .gras {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .header_buttons {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            button {
+                padding-right: 1rem;
+                padding-left: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-radius: 30px;
+                border-color: transparent;
+                margin: 1rem;
+                font-size: 15px;
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+            #one {
+                a {
+                    color: black;
+                }
+            }
+            #two {
+                background-color: $button;
+                a {
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    header {
+        height: 800px;
+        background-image: url('../../../public/images/banner1.jpg');
+        background-color: grey;
+        background-size: cover;
+        background-blend-mode: multiply;
+        .navbar {
+            display: flex;
+            flex-direction: column;
+            .navbar {
+                border-top: solid 1px white;
+                border-bottom: solid 1px white;
+                ul {
+                    display: flex;
+                    margin: 0rem;
+                    padding: 0rem;
+                    li {
+                        list-style-type: none;
+                        font-size: 8px;
+                        a {
+                            padding-top: 1rem;
+                            padding-left: 1rem;
+                            color: white;
+                            text-decoration: none;
+                        }
+                        a:hover {
+                            background-color: $button;
+                        }
+                    }
+                }
+            }
+            .navbar_logo {
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+            }
+        }
+        .title {
+            height: 700px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            .header_title {
+                width: 40%;
+                text-align: center;
+                color: white;
+                h1 {
+                    font-size: 20px;
+                    font-family: 'Courgette', cursive;
+                    #taste {
+                        color: $taste;
+                    }
+                    .gras {
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+        .header_buttons {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            button {
+                padding-right: 1rem;
+                padding-left: 1rem;
+                padding-top: 1rem;
+                padding-bottom: 1rem;
+                border-radius: 30px;
+                border-color: transparent;
+                margin: 1rem;
+                a {
+                    text-decoration: none;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    font-size: 10px;
+                }
+            }
+            #one {
+                a {
+                    color: black;
+                }
+            }
+            #two {
+                background-color: $button;
+                a {
+                    color: white;
+                }
             }
         }
     }
