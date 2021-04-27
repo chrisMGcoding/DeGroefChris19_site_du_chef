@@ -16487,5 +16487,116 @@ h3 {
     border-top: solid 1px white;
   }
 }
+.third {
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  background-image: url("../../../public/images/main_bg.jpg");
+}
+.third .third_all {
+  width: 90%;
+  border: 1px solid grey;
+  background-color: white;
+  height: 1345px;
+}
+.third .third_all .third_top {
+  display: flex;
+  justify-content: space-between;
+}
+.third .third_all .third_top .third_title {
+  padding-top: 2rem;
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+.third .third_all .third_top .third_title span {
+  color: #AF2839;
+}
+.third .third_all .third_top .third_title::after {
+  content: url("../../../public/images/decoration_line.png");
+}
+.third .third_all .third_formulaire {
+  display: flex;
+  justify-content: center;
+}
+.third .third_all .third_formulaire .third_formulaire1 {
+  height: 550px;
+  background-image: url("../../../public/images/book_table_bg.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_title {
+  display: flex;
+  justify-content: center;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_title p {
+  color: white;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_input {
+  display: flex;
+  justify-content: center;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_input .third_formulaire_input1 {
+  padding: 2rem;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_button {
+  display: flex;
+  justify-content: center;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_button button {
+  background-color: #B12A3B;
+  border-radius: 30px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: transparent;
+}
+.third .third_all .third_formulaire .third_formulaire1 .third_formulaire_button button a {
+  text-decoration: none;
+  color: white;
+}
+.third .third_blog {
+  padding-top: 4rem;
+  display: flex;
+  justify-content: center;
+}
+.third .third_blog .third_blog_title h2 {
+  font-family: "Courgette", cursive;
+  text-align: center;
+}
+.third .third_blog .third_blog_title h2 span {
+  color: #AF2839;
+  font-size: 40px;
+}
+.third .third_blog .third_blog_title::after {
+  content: url("../../../public/images/decoration_line.png");
+}
+.third .third_cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.third .third_bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.third .third_bottom button {
+  background-color: #B12A3B;
+  border-radius: 30px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border: transparent;
+}
+.third .third_bottom button a {
+  text-decoration: none;
+  color: white;
+}
 
 /*# sourceMappingURL=app.css.map */
