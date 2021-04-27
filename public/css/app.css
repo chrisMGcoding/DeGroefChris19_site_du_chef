@@ -16409,12 +16409,138 @@ h3 {
   .second .second_photo {
     display: flex;
     justify-content: space-around;
-    padding-top: 4rem;
   }
-  .second .second_photo .second_photo1 p {
+  .second .second_photo .chef1 .container1 {
+    position: relative;
+  }
+  .second .second_photo .chef1 .container1 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef1 .test {
+    border-top: solid 1px white;
     text-align: center;
     color: white;
+  }
+  .second .second_photo .chef2 .container2 {
+    position: relative;
+  }
+  .second .second_photo .chef2 .container2 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef2 .test {
     border-top: solid 1px white;
+    text-align: center;
+    color: white;
+  }
+  .second .second_photo .chef3 .container3 {
+    position: relative;
+  }
+  .second .second_photo .chef3 .container3 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef3 .test {
+    border-top: solid 1px white;
+    text-align: center;
+    color: white;
+  }
+  .second .second_photo .chef4 .container4 {
+    position: relative;
+  }
+  .second .second_photo .chef4 .container4 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef4 .test {
+    border-top: solid 1px white;
+    text-align: center;
+    color: white;
   }
 }
 @media (min-width: 600px) and (max-width: 1023px) {
@@ -16443,13 +16569,170 @@ h3 {
   .second .second_photo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
   }
-  .second .second_photo .second_photo1 p {
+  .second .second_photo .chef1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_photo .chef1 .container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef1 .container1 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef1 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 30%;
+    text-align: center;
+  }
+  .second .second_photo .chef2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_photo .chef2 .container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef2 .container2 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef2 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 30%;
+    text-align: center;
+  }
+  .second .second_photo .chef3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_photo .chef3 .container3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef3 .container3 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef3 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 30%;
+    text-align: center;
+  }
+  .second .second_photo .chef4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_photo .chef4 .container4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef4 .container4 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef4 .test {
+    border-top: solid 1px white;
     text-align: center;
     color: white;
-    border-top: solid 1px white;
+    width: 35%;
   }
 }
 @media (max-width: 599px) {
@@ -16478,13 +16761,173 @@ h3 {
   .second .second_photo {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding-top: 2rem;
   }
-  .second .second_photo .second_photo1 p {
+  .second .second_photo .chef1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .second .second_photo .chef1 .container1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef1 .container1 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef1 .container1:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef1 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 55%;
+    text-align: center;
+  }
+  .second .second_photo .chef2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .second .second_photo .chef2 .container2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef2 .container2 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef2 .container2:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef2 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 55%;
+    text-align: center;
+  }
+  .second .second_photo .chef3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+  .second .second_photo .chef3 .container3 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef3 .container3 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef3 .container3:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef3 .test {
+    border-top: solid 1px white;
+    color: white;
+    width: 55%;
+    text-align: center;
+  }
+  .second .second_photo .chef4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .second .second_photo .chef4 .container4 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo .chef4 .container4 .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: 5s ease;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay {
+    height: 50%;
+  }
+  .second .second_photo .chef4 .container4:hover .overlay .text {
+    white-space: nowrap;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .second .second_photo .chef4 .test {
+    border-top: solid 1px white;
     text-align: center;
     color: white;
-    border-top: solid 1px white;
+    width: 55%;
   }
 }
 @media (min-width: 1024px) {
