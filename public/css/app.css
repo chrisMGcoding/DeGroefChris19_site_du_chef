@@ -16383,4 +16383,109 @@ h3 {
   align-items: center;
 }
 
+@media (min-width: 1024px) {
+  .second {
+    background-color: black;
+    height: 625px;
+  }
+  .second .second_title {
+    font-family: "Courgette", cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .second .second_title h2 {
+    text-align: center;
+    color: white;
+  }
+  .second .second_title h2 span {
+    color: #AF2839;
+    font-size: 40px;
+  }
+  .second .second_title::after {
+    content: url("../../../public/images/decoration_line.png");
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4rem;
+  }
+  .second .second_photo .second_photo1 p {
+    text-align: center;
+    color: white;
+    border-top: solid 1px white;
+  }
+}
+@media (min-width: 600px) and (max-width: 1023px) {
+  .second {
+    background-color: black;
+    height: 1850px;
+  }
+  .second .second_title {
+    font-family: "Courgette", cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .second .second_title h2 {
+    text-align: center;
+    color: white;
+  }
+  .second .second_title h2 span {
+    color: #AF2839;
+    font-size: 40px;
+  }
+  .second .second_title::after {
+    content: url("../../../public/images/decoration_line.png");
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .second .second_photo .second_photo1 p {
+    text-align: center;
+    color: white;
+    border-top: solid 1px white;
+  }
+}
+@media (max-width: 599px) {
+  .second {
+    background-color: black;
+    height: 1850px;
+  }
+  .second .second_title {
+    font-family: "Courgette", cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .second .second_title h2 {
+    text-align: center;
+    color: white;
+  }
+  .second .second_title h2 span {
+    color: #AF2839;
+    font-size: 40px;
+  }
+  .second .second_title::after {
+    content: url("../../../public/images/decoration_line.png");
+    display: flex;
+    justify-content: center;
+  }
+  .second .second_photo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 2rem;
+  }
+  .second .second_photo .second_photo1 p {
+    text-align: center;
+    color: white;
+    border-top: solid 1px white;
+  }
+}
+
 /*# sourceMappingURL=app.css.map */

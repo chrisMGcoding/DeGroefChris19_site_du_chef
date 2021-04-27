@@ -1,0 +1,112 @@
+@media (min-width:1024px) {
+    .second {
+        background-color: black;
+        height: 625px;
+        .second_title {
+            font-family: 'Courgette', cursive;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            h2 {
+                text-align: center;
+                color: white;
+                span {
+                    color: $taste;
+                    font-size: 40px;
+                }
+            }
+        }
+        .second_title::after {
+            content: url("../../../public/images/decoration_line.png");
+            display: flex;
+            justify-content: center;
+        }
+        .second_photo {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 4rem;
+            .second_photo1 {
+                p {
+                    text-align: center;
+                    color: white;
+                    border-top: solid 1px white;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 600px) and (max-width:1023px) {
+    .second {
+        background-color: black;
+        height: 1850px;
+        .second_title {
+            font-family: 'Courgette', cursive;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            h2 {
+                text-align: center;
+                color: white;
+                span {
+                    color: $taste;
+                    font-size: 40px;
+                }
+            }
+        }
+        .second_title::after {
+            content: url("../../../public/images/decoration_line.png");
+            display: flex;
+            justify-content: center;
+        }
+        .second_photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2rem;
+            .second_photo1 {
+                p {
+                    text-align: center;
+                    color: white;
+                    border-top: solid 1px white;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .second {
+        background-color: black;
+        height: 1850px;
+        .second_title {
+            font-family: 'Courgette', cursive;
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            h2 {
+                text-align: center;
+                color: white;
+                span {
+                    color: $taste;
+                    font-size: 40px;
+                }
+            }
+        }
+        .second_title::after {
+            content: url("../../../public/images/decoration_line.png");
+            display: flex;
+            justify-content: center;
+        }
+        .second_photo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 2rem;
+            .second_photo1 {
+                p {
+                    text-align: center;
+                    color: white;
+                    border-top: solid 1px white;
+                }
+            }
+        }
+    }
+}
