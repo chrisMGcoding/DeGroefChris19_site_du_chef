@@ -1,0 +1,71 @@
+.fifth {
+    background-image: url("../../../public/images/main_bg.jpg");
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    .fifth_title {
+        text-align: center;
+        padding-top: 5rem;
+        font-family: 'Courgette', cursive;
+        span {
+            color: $taste;
+        }
+    }
+    .fifth_title::after {
+        content: url("../../../public/images/decoration_line.png");
+    }
+    .fifth_contact {
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        width: 30%;
+        background-color: $taste;
+        border-radius: 10px;
+        .fifth_contact1 {
+            text-align: center;
+            border-bottom: 1px solid white;
+            width: 90%;
+            padding-top: 1rem;
+            i {
+                color: white;
+                font-size: 45px;
+                padding-bottom: 1rem;
+            }
+            p {
+                color: white;
+            }
+        }
+        .fifth_contact2 {
+            text-align: center;
+            border-bottom: 1px solid white;
+            width: 90%;
+            padding-top: 1rem;
+            i {
+                color: white;
+                font-size: 45px;
+                padding-bottom: 1rem;
+            }
+            p {
+                color: white;
+                list-style-type: none;
+            }
+        }
+        .fifth_contact3 {
+            text-align: center;
+            padding-top: 1rem;
+            i {
+                color: white;
+                font-size: 45px;
+                padding-bottom: 1rem;
+            }
+            p {
+                list-style-type: none;
+                color: white;
+            }
+        }
+    }
+}

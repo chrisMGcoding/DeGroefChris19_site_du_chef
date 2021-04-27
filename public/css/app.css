@@ -17363,5 +17363,76 @@ h3 {
     flex-wrap: wrap;
   }
 }
+.fifth {
+  background-image: url("../../../public/images/main_bg.jpg");
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.fifth .fifth_title {
+  text-align: center;
+  padding-top: 5rem;
+  font-family: "Courgette", cursive;
+}
+.fifth .fifth_title span {
+  color: #AF2839;
+}
+.fifth .fifth_title::after {
+  content: url("../../../public/images/decoration_line.png");
+}
+.fifth .fifth_contact {
+  height: 375px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  background-color: #AF2839;
+  border-radius: 10px;
+}
+.fifth .fifth_contact .fifth_contact1 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 90%;
+  padding-top: 1rem;
+}
+.fifth .fifth_contact .fifth_contact1 i {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 1rem;
+}
+.fifth .fifth_contact .fifth_contact1 p {
+  color: white;
+}
+.fifth .fifth_contact .fifth_contact2 {
+  text-align: center;
+  border-bottom: 1px solid white;
+  width: 90%;
+  padding-top: 1rem;
+}
+.fifth .fifth_contact .fifth_contact2 i {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 1rem;
+}
+.fifth .fifth_contact .fifth_contact2 p {
+  color: white;
+  list-style-type: none;
+}
+.fifth .fifth_contact .fifth_contact3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+.fifth .fifth_contact .fifth_contact3 i {
+  color: white;
+  font-size: 45px;
+  padding-bottom: 1rem;
+}
+.fifth .fifth_contact .fifth_contact3 p {
+  list-style-type: none;
+  color: white;
+}
 
 /*# sourceMappingURL=app.css.map */
