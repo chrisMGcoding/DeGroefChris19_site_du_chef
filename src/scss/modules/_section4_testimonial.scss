@@ -1,28 +1,81 @@
-.fourth {
-    padding-top: 4rem;
-    background-image: url("../../../public/images/testimonials_background.jpg");
-    background-size: cover;
-    height: 400px;
-    .fourth_title {
-        text-align: center;
-        h2 {
-            color: white;
-            font-family: 'Courgette', cursive;
-           span {
-               color: $taste;
-           } 
+@media (min-width:1024px) {    
+    .fourth {
+        padding-top: 4rem;
+        background-image: url("../../../public/images/testimonials_background.jpg");
+        background-size: cover;
+        height: 425px;
+        .fourth_title {
+            text-align: center;
+            h2 {
+                color: white;
+                font-family: 'Courgette', cursive;
+            span {
+                color: $taste;
+            } 
+            }
+        }
+        .fourth_title::after {
+            content: url("../../../public/images/decoration_line.png");
+        }
+        .fourth_testimonial {
+            display: flex;
+            justify-content: space-evenly;
+            padding-top:4rem;
         }
     }
-    .fourth_title::after {
-        content: url("../../../public/images/decoration_line.png");
-    }
-    .fourth_testimonial {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top:4rem;
-        .fourth_testimonial1 {
+}
+
+@media (min-width: 600px) and (max-width:1023px) {    
+    .fourth {
+        padding-top: 4rem;
+        background-image: url("../../../public/images/testimonials_background.jpg");
+        background-size: cover;
+        height: auto;
+        .fourth_title {
+            text-align: center;
+            h2 {
+                color: white;
+                font-family: 'Courgette', cursive;
+            span {
+                color: $taste;
+            } 
+            }
+        }
+        .fourth_title::after {
+            content: url("../../../public/images/decoration_line.png");
+        }
+        .fourth_testimonial {
             display: flex;
-            flex-direction: row;
+            flex-wrap: wrap;
+            padding-left: 5rem;
+        }
+    }
+}
+
+@media (max-width:599px) {    
+    .fourth {
+        padding-top: 4rem;
+        background-image: url("../../../public/images/testimonials_background.jpg");
+        background-size: cover;
+        height: auto;
+        .fourth_title {
+            text-align: center;
+            h2 {
+                color: white;
+                font-family: 'Courgette', cursive;
+            span {
+                color: $taste;
+            } 
+            }
+        }
+        .fourth_title::after {
+            content: url("../../../public/images/decoration_line.png");
+            display: flex;
+            justify-content: center;
+        }
+        .fourth_testimonial {
+            display: flex;
+            flex-wrap: wrap;
         }
     }
 }
