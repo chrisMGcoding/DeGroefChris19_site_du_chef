@@ -16935,6 +16935,7 @@ h3 {
     display: flex;
     justify-content: center;
     padding-top: 8rem;
+    padding-bottom: 8rem;
     background-image: url("../../../public/images/main_bg.jpg");
   }
   .third .third_all {
@@ -17282,6 +17283,34 @@ h3 {
     text-decoration: none;
     color: white;
   }
+}
+.fourth {
+  padding-top: 4rem;
+  background-image: url("../../../public/images/testimonials_background.jpg");
+  background-size: cover;
+  height: 400px;
+}
+.fourth .fourth_title {
+  text-align: center;
+}
+.fourth .fourth_title h2 {
+  color: white;
+  font-family: "Courgette", cursive;
+}
+.fourth .fourth_title h2 span {
+  color: #AF2839;
+}
+.fourth .fourth_title::after {
+  content: url("../../../public/images/decoration_line.png");
+}
+.fourth .fourth_testimonial {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 4rem;
+}
+.fourth .fourth_testimonial .fourth_testimonial1 {
+  display: flex;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=app.css.map */

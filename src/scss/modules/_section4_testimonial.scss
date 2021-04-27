@@ -1,0 +1,28 @@
+.fourth {
+    padding-top: 4rem;
+    background-image: url("../../../public/images/testimonials_background.jpg");
+    background-size: cover;
+    height: 400px;
+    .fourth_title {
+        text-align: center;
+        h2 {
+            color: white;
+            font-family: 'Courgette', cursive;
+           span {
+               color: $taste;
+           } 
+        }
+    }
+    .fourth_title::after {
+        content: url("../../../public/images/decoration_line.png");
+    }
+    .fourth_testimonial {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top:4rem;
+        .fourth_testimonial1 {
+            display: flex;
+            flex-direction: row;
+        }
+    }
+}
