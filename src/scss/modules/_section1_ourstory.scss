@@ -1,90 +1,361 @@
-.first {
-    display: flex;
-    justify-content: center;
-    padding-top: 8rem;
-    background-image: url("../../../public/images/main_bg.jpg");
-    padding-bottom: 8rem;
-    .first_all {
+@media (min-width: 1024px) {
+    .first {
         display: flex;
         justify-content: center;
-        flex-direction: column;
-        width: 90%;
-        border: 1px solid grey;
-        background-color: white;
-        .story {
-            width: 100%;
+        padding-top: 8rem;
+        background-image: url("../../../public/images/main_bg.jpg");
+        padding-bottom: 8rem;
+        .first_all {
             display: flex;
-            .story_cornerleft {
-                width: 20%;
-            }
-            .story_title {
-                font-family: 'Courgette', cursive;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-                width: 60%;
-                h2 {
-                    text-align: center;
-                    span {
-                        color: $taste;
-                        font-size: 40px;
-                    }
-                }
-            }
-            .story_title::after {
-                content: url("../../../public/images/decoration_line.png");
-                display: flex;
-                justify-content: center;
-            }
-            .story_cornerright {
-                width: 20%;
-                display: flex;
-                justify-content: flex-end;
-            }
-        }
-        .story_text {
-            display :flex;
             justify-content: center;
-            p {
-                width: 45%;
-                text-align: center;
-                line-height: 2rem;
-            }
-        }
-        .menu {
-            .menu_title {
-                font-family: 'Courgette', cursive;
-                padding-top: 2rem;
-                padding-bottom: 2rem;
-                h2 {
-                    text-align: center;
-                    span {
-                        color: $taste;
-                        font-size: 40px;
+            flex-direction: column;
+            width: 90%;
+            border: 1px solid grey;
+            background-color: white;
+            .story {
+                width: 100%;
+                display: flex;
+                .story_cornerleft {
+                    width: 20%;
+                }
+                .story_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    width: 60%;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
                     }
                 }
+                .story_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+                .story_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
             }
-            .menu_title::after {
-                content: url("../../../public/images/decoration_line.png");
-                display: flex;
+            .story_text {
+                display :flex;
                 justify-content: center;
+                p {
+                    width: 45%;
+                    text-align: center;
+                    line-height: 2rem;
+                }
+            }
+            .menu {
+                .menu_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .menu_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .row>.col-3 {
+                border-right: 1px solid grey;
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p {
+                    color: black;
+                    font-size: 2rem;
+                    font-family: 'Courgette', cursive;
+                    width: 100%;
+                    border-bottom: solid 1px grey;
+                }
+                i {
+                    color: grey;
+                    font-size: 3rem;
+                }
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link:hover {
+                i {
+                    color: $taste;
+                }
+                p {
+                    border-right: $taste solid 2px;
+                }
+            }
+            .menu_end {
+                width: 100%;
+                display: flex;
+                .menu_end_cornerleft {
+                    width: 20%;
+                }
+                .menu_end_center {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                }
+                .menu_end_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
             }
         }
-        .menu_end {
-            width: 100%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1023px) {
+    .first {
+        display: flex;
+        justify-content: center;
+        padding-top: 8rem;
+        background-image: url("../../../public/images/main_bg.jpg");
+        padding-bottom: 8rem;
+        .first_all {
             display: flex;
-            .menu_end_cornerleft {
-                width: 20%;
-            }
-            .menu_end_center {
+            justify-content: center;
+            flex-direction: column;
+            width: 90%;
+            border: 1px solid grey;
+            background-color: white;
+            .story {
+                width: 100%;
                 display: flex;
+                .story_cornerleft {
+                    width: 20%;
+                }
+                .story_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    width: 60%;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .story_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+                .story_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .story_text {
+                display :flex;
                 justify-content: center;
-                align-items: center;
-                width: 60%;
+                p {
+                    width: 45%;
+                    text-align: center;
+                    line-height: 2rem;
+                }
             }
-            .menu_end_cornerright {
-                width: 20%;
+            .menu {
+                .menu_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .menu_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .row>.col-3 {
+                border-right: 1px solid grey;
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link {
                 display: flex;
-                justify-content: flex-end;
+                flex-direction: column;
+                align-items: center;
+                p {
+                    color: black;
+                    font-size: 1rem;
+                    font-family: 'Courgette', cursive;
+                    width: 100%;
+                    border-bottom: solid 1px grey;
+                }
+                i {
+                    color: grey;
+                    font-size: 1.5rem;
+                }
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link:hover {
+                i {
+                    color: $taste;
+                }
+                p {
+                    border-right: $taste solid 2px;
+                }
+            }
+            .menu_end {
+                width: 100%;
+                display: flex;
+                .menu_end_cornerleft {
+                    width: 20%;
+                }
+                .menu_end_center {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                }
+                .menu_end_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 599px) {
+    .first {
+        display: flex;
+        justify-content: center;
+        padding-top: 8rem;
+        background-image: url("../../../public/images/main_bg.jpg");
+        padding-bottom: 8rem;
+        .first_all {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 90%;
+            border: 1px solid grey;
+            background-color: white;
+            .story {
+                width: 100%;
+                display: flex;
+                .story_cornerleft {
+                    width: 20%;
+                }
+                .story_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    width: 60%;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .story_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+                .story_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .story_text {
+                display :flex;
+                justify-content: center;
+                p {
+                    width: 45%;
+                    text-align: center;
+                    line-height: 2rem;
+                }
+            }
+            .menu {
+                .menu_title {
+                    font-family: 'Courgette', cursive;
+                    padding-top: 2rem;
+                    padding-bottom: 2rem;
+                    h2 {
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .menu_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .row>.col-3 {
+                border-right: 1px solid grey;
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                p {
+                    color: black;
+                    font-size: 1rem;
+                    font-family: 'Courgette', cursive;
+                    width: 100%;
+                    border-bottom: solid 1px grey;
+                }
+                i {
+                    color: grey;
+                    font-size: 1.5rem;
+                }
+            }
+            .row>.col-3>.d-flex>nav>.nav>.nav-link:hover {
+                i {
+                    color: $taste;
+                }
+                p {
+                    border-right: $taste solid 2px;
+                }
+            }
+            .menu_end {
+                width: 100%;
+                display: flex;
+                .menu_end_cornerleft {
+                    width: 20%;
+                }
+                .menu_end_center {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 60%;
+                }
+                .menu_end_cornerright {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
             }
         }
     }

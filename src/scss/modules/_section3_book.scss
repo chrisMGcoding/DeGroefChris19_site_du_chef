@@ -9,7 +9,7 @@
             width: 90%;
             border: 1px solid grey;
             background-color: white;
-            height: 1345px;
+            height: auto;
             .third_top {
                 display: flex;
                 .third_leftcorner {
@@ -104,6 +104,21 @@
                 justify-content: space-evenly;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
+                .card>img {
+                    position: relative;
+                }
+                .card>p {
+                    position: absolute;
+                    border-radius: 10px;
+                    color: white;
+                    background-color: $taste;
+                    padding: 1rem;
+                    top: 11rem;
+                    left: 8%;
+                    span {
+                        font-weight: bold;
+                    }
+                }
             }
             .third_bottom {
                 display: flex;
@@ -244,6 +259,21 @@
                 align-items: center;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
+                .card_img {
+                    position: relative
+                }
+                .card>p {
+                    position: absolute;
+                    border-radius: 10px;
+                    color: white;
+                    background-color: $taste;
+                    padding: 1rem;
+                    top: 11rem;
+                    left: 8%;
+                    span {
+                        font-weight: bold;
+                    }
+                }
             }
             .third_bottom {
                 display: flex;
@@ -391,6 +421,21 @@
                 align-items: center;
                 margin-top: 2rem;
                 margin-bottom: 2rem;
+                .card>img {
+                    position: relative;
+                }
+                .card>p {
+                    position: absolute;
+                    border-radius: 10px;
+                    color: white;
+                    background-color: $taste;
+                    padding: 1rem;
+                    top: 11rem;
+                    left: 8%;
+                    span {
+                        font-weight: bold;
+                    }
+                }
             }
             .third_bottom {
                 display: flex;
