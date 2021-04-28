@@ -17885,5 +17885,9 @@ h3 {
     margin: 1rem;
   }
 }
+footer {
+  height: 8rem;
+  background-color: #AF2839;
+}
 
 /*# sourceMappingURL=app.css.map */
