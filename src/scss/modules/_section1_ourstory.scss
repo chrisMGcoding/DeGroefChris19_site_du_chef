@@ -3,6 +3,7 @@
     justify-content: center;
     padding-top: 8rem;
     background-image: url("../../../public/images/main_bg.jpg");
+    padding-bottom: 8rem;
     .first_all {
         display: flex;
         justify-content: center;
@@ -13,11 +14,14 @@
         .story {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            .story_cornerleft {
+                width: 20%;
+            }
             .story_title {
                 font-family: 'Courgette', cursive;
                 padding-top: 2rem;
                 padding-bottom: 2rem;
+                width: 60%;
                 h2 {
                     text-align: center;
                     span {
@@ -28,6 +32,13 @@
             }
             .story_title::after {
                 content: url("../../../public/images/decoration_line.png");
+                display: flex;
+                justify-content: center;
+            }
+            .story_cornerright {
+                width: 20%;
+                display: flex;
+                justify-content: flex-end;
             }
         }
         .story_text {
@@ -61,10 +72,19 @@
         .menu_end {
             width: 100%;
             display: flex;
-            justify-content: space-between;
+            .menu_end_cornerleft {
+                width: 20%;
+            }
             .menu_end_center {
                 display: flex;
+                justify-content: center;
                 align-items: center;
+                width: 60%;
+            }
+            .menu_end_cornerright {
+                width: 20%;
+                display: flex;
+                justify-content: flex-end;
             }
         }
     }

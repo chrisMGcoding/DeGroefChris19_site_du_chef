@@ -6,6 +6,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        padding-bottom: 5rem;
         .fifth_title {
             text-align: center;
             padding-top: 5rem;
@@ -75,11 +76,12 @@
 @media (min-width:600px) and (max-width: 1023px) {    
     .fifth {
         background-image: url("../../../public/images/main_bg.jpg");
-        height: 550px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        padding-bottom: 5rem;
         .fifth_title {
             text-align: center;
             padding-top: 5rem;
@@ -149,11 +151,12 @@
 @media (max-width:599px) {    
     .fifth {
         background-image: url("../../../public/images/main_bg.jpg");
-        height: 450px;
+        height: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
+        padding-bottom: 5rem;
         .fifth_title {
             text-align: center;
             padding-top: 5rem;

@@ -96,152 +96,628 @@
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque cupiditate dolore aspernatur, dolor ea laboriosam dicta molestiae rerum nihil inventore nesciunt autem sunt laborum aut deleniti voluptatum blanditiis eligendi magni totam aperiam numquam ut perspiciatis sint fugit. Ullam eos molestias fugit repellat asperiores. Quis quas laborum dicta, earum doloribus illo, autem vero fugit mollitia aliquam enim quibusdam. Tempore, sapiente quos? Voluptatum recusandae sint aspernatur dolor.</p>
             </div>
 
-            <class class="menu">
+            <div class="menu">
                 <div class="menu_title">
                     <h2><span>OUR</span> Menu</h2>
                 </div>
                 <!-- début menu cliquable -->
                 
-                    <div class="row">
-                        <div class="col-2">
-                            <!-- 1e colonne -->
-                            <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
-                                <a class="nav-link active " id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">Breakfast</a>
-                                <a class="nav-link" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">Lunch</a>
-                                <a class="nav-link" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">Snacks</a>
-                                <a class="nav-link" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">Dinner</a>
-                            </div>
-                        </div>
+                <div class="row">
+
+                    <div class="col-3 border-right">
+                      <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+                        <a class="nav-link active border-bottom d-flex flex-column align-items-center" id="v-pills-home-tab" data-toggle="pill" href="#v-pills-home" role="tab" aria-controls="v-pills-home" aria-selected="true">
+                            <p class="display-3 text-muted"><i class="fas fa-mug-hot"></i></p>
+                            <p class="text-dark">Breakfast</p>
+                        </a>
+
+                        <a class="nav-link border-bottom d-flex flex-column align-items-center" id="v-pills-profile-tab" data-toggle="pill" href="#v-pills-profile" role="tab" aria-controls="v-pills-profile" aria-selected="false">
+                            <p class="display-3 text-muted"><i class="fas fa-hamburger"></i></p>
+                            <p class="text-dark">Lunch</p>
+                        </a>
+
+                        <a class="nav-link border-bottom d-flex flex-column align-items-center" id="v-pills-messages-tab" data-toggle="pill" href="#v-pills-messages" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+                            <p class="display-3 text-muted"><i class="fas fa-cookie"></i></p>
+                            <p class="text-dark">Snacks</p>
+                        </a>
+
+                        <a class="nav-link border-bottom d-flex flex-column align-items-center" id="v-pills-settings-tab" data-toggle="pill" href="#v-pills-settings" role="tab" aria-controls="v-pills-settings" aria-selected="false">
+                            <p class="display-3 text-muted"><i class="fas fa-mug-hot"></i></p>
+                            <p class="text-dark">Dinner</p>
+                        </a>
+
+                      </div>
+                    </div>
+
+                    <div class="col-9">
+                        <div class="tab-content" id="v-pills-tabContent">
+
                             <!-- breakfast -->
-                        <div class="col-10">
-                            <div class="tab-content" id="v-pills-tabContent">
-                                <div class="tab-pane fade show active d-flex flex-column" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                                
-                                    <div class="card mb-3" style="max-width: 500px;">
-                                        <div class="row g-0">
-                                            <div class="col-5">
-                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+                            <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
                                             </div>
-                                            <div class="col-7">
-                                                <div class="card-body pr-1 pb-0">
-                                                    <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                                    <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
                                                 </div>
                                             </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
                                         </div>
-                                    </div> 
 
-                                    <div class="card mb-3" style="max-width: 500px;">
-                                        <div class="row g-0">
-                                            <div class="col-5">
-                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
                                             </div>
-                                            <div class="col-7">
-                                                <div class="card-body pr-1 pb-0">
-                                                    <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                                    <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
                                                 </div>
                                             </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
                                         </div>
-                                    </div> 
 
-                                    <div class="card mb-3" style="max-width: 500px;">
-                                        <div class="row g-0">
-                                            <div class="col-5">
-                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
                                             </div>
-                                            <div class="col-7">
-                                                <div class="card-body pr-1 pb-0">
-                                                    <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                                    <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
                                                 </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
                                             </div>
                                         </div>
-                                    </div> 
-                                    
-                                    <div class="card mb-3" style="max-width: 500px;">
-                                        <div class="row g-0">
-                                            <div class="col-5">
-                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
                                             </div>
-                                            <div class="col-7">
-                                                <div class="card-body pr-1 pb-0">
-                                                    <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                                    <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
                                                 </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_1.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>        
-                <!-- fin breakfast -->
+                            <!-- fin breakfast -->
+                            <!-- début lunch -->
+                            <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
 
-                <div class="col-10">
-                    <div class="tab-content" id="v-pills-tabContent">
-                        <div class="tab-pane fade show active d-flex flex-column" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                        
-                            <div class="card mb-3" style="max-width: 500px;">
-                                <div class="row g-0">
-                                    <div class="col-5">
-                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-7">
-                                        <div class="card-body pr-1 pb-0">
-                                            <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                            <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_2.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div> 
-
-                            <div class="card mb-3" style="max-width: 500px;">
-                                <div class="row g-0">
-                                    <div class="col-5">
-                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
-                                    </div>
-                                    <div class="col-7">
-                                        <div class="card-body pr-1 pb-0">
-                                            <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                            <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
-
-                            <div class="card mb-3" style="max-width: 500px;">
-                                <div class="row g-0">
-                                    <div class="col-5">
-                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
-                                    </div>
-                                    <div class="col-7">
-                                        <div class="card-body pr-1 pb-0">
-                                            <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                            <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div> 
+                            </div>
                             
-                            <div class="card mb-3" style="max-width: 500px;">
-                                <div class="row g-0">
-                                    <div class="col-5">
-                                        <img src="./public/images/menu_image_1.jpg" class="rounded-circle" alt="...">
+                        
+                            <!-- fin lunch -->
+                            <!-- début snacks -->
+                            <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-7">
-                                        <div class="card-body pr-1 pb-0">
-                                            <h5 class="card-title">Deer Steak with Potatoes</h5>
-                                            <p class="card-text">Welcome to Risotto restaurant website. Here we try to share our</p>
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_3.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                        
                             </div>
+                            <!-- fin snacks -->
+                            <!-- début dinner -->
+                            <div class="tab-pane fade" id="v-pills-settings" role="tabpanel" aria-labelledby="v-pills-settings-tab">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="card mb-3 border-0 mr-3" style="max-width: 500px;">
+                                            <div class="row g-0">
+                                            <div class="col-md-3">
+                                                <img src="./public/images/menu_image_4.jpg" class="rounded-circle w-100 border-secondary" alt="...">
+                                            </div>
+                                            <div class="col-md-7">
+                                                <div class="card-body">
+                                                <h5 class="card-title">Deer Steak with Potatoes</h5>
+                                                <p class="card-text">Welcome to Risotto restaurant website. here we try to share our</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-2 d-flex justify-content-center align-items-center">
+                                                <p class="bg-light d-flex justify-content-center text-danger pl-3 pr-3 font-weight-bold">$25</p>
+                                            </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        
+                            </div>
+                            <!-- fin dinner -->
                         </div>
                     </div>
-                </div>
-                <!-- fin lunch -->
-            </class>
+                </div>               
+            </div>
+            <!-- fin menu cliquable -->
 
             <div class="menu_end">
 
@@ -402,7 +878,7 @@
 
             <div class="third_cards">
 
-                <div class="card border-0" style="width: 24rem;">
+                <div class="card border-0" style="width: 22rem;">
                     <img src="./public/images/blog_img1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -410,7 +886,7 @@
                     </div>
                   </div>
 
-                  <div class="card border-0" style="width: 24rem;">
+                  <div class="card border-0" style="width: 22rem;">
                     <img src="./public/images/blog_img2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Card title</h5>
@@ -536,6 +1012,19 @@
     </section>
 
 <!-- fin section contact -->
+
+    <section class="sixth">
+        <div class="sixth_photo">
+        </div>
+    </section>
+
+<!-- début section about us -->
+
+    <section class="seventh">
+
+    </section>
+
+<!-- fin section about us -->
 
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>

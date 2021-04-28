@@ -12,17 +12,25 @@
             height: 1345px;
             .third_top {
                 display: flex;
-                justify-content: space-between;
+                .third_leftcorner {
+                    width: 20%;
+                }
                 .third_title {
                     padding-top: 2rem;
                     font-family: 'Courgette', cursive;
                     text-align: center;
+                    width: 60%;
                     span {
                         color: $taste;
                     }
                 }
                 .third_title::after {
                     content: url("../../../public/images/decoration_line.png");
+                }
+                .third_rightcorner {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
                 }
             }
             .third_formulaire {
@@ -99,126 +107,12 @@
             }
             .third_bottom {
                 display: flex;
-                justify-content: space-between;
-                button {
-                    background-color: $button;
-                    border-radius: 30px;
-                    padding-right: 2rem;
-                    padding-left: 2rem;
-                    padding-top: 1rem;
-                    padding-bottom: 1rem;
-                    border: transparent;
-                    a {
-                        text-decoration: none;
-                        color: white; 
-                    }
+                .third_leftcornerbot {
+                    width: 20%;
                 }
-            }
-        }
-    }
-
-    @media (min-width: 600px) and (max-width:1023px) {
-        .third {
-            display: flex;
-            justify-content: center;
-            padding-top: 8rem;
-            background-image: url("../../../public/images/main_bg.jpg");
-            .third_all {
-                width: 90%;
-                border: 1px solid grey;
-                background-color: white;
-                height: 1695px;
-                .third_top {
-                    display: flex;
-                    justify-content: space-between;
-                    .third_title {
-                        padding-top: 2rem;
-                        font-family: 'Courgette', cursive;
-                        text-align: center;
-                        span {
-                            color: $taste;
-                        }
-                    }
-                    .third_title::after {
-                        content: url("../../../public/images/decoration_line.png");
-                    }
-                }
-                .third_formulaire {
-                    display: flex;
-                    justify-content: center;
-                        .third_formulaire1 {
-                            height: 550px;
-                            background-image: url("../../../public/images/book_table_bg.jpg");
-                            background-size: cover;
-                            border-radius: 10px;
-                            width: 60%;
-                            display: flex;
-                            flex-direction: column;
-                            justify-content: space-evenly;
-                            
-                            .third_formulaire_title {
-                                display: flex;
-                                justify-content: center;
-                                p {
-                                    color: white;
-                                }
-                            }
-                            .third_formulaire_input {
-                                display: flex;
-                                justify-content: center;
-                                .third_formulaire_input1 {
-                                    padding: 2rem;
-                                }
-                            }
-                            .third_formulaire_button {
-                                display: flex;
-                                justify-content: center;
-                                button {
-                                    background-color: $button;
-                                    border-radius: 30px;
-                                    padding-right: 2rem;
-                                    padding-left: 2rem;
-                                    padding-top: 1rem;
-                                    padding-bottom: 1rem;
-                                    border: transparent;
-                                    a {
-                                        text-decoration: none;
-                                        color: white; 
-                                    }
-                                }
-                            }
-                        }
-                    }
-                }
-                .third_blog {
-                    padding-top: 4rem;
-                    display: flex;
-                    justify-content: center;
-                    .third_blog_title {
-                        h2 {
-                            font-family: 'Courgette', cursive;
-                            text-align: center;
-                            span {
-                                color: $taste;
-                                font-size: 40px;
-                            }
-                        }
-                    }
-                    .third_blog_title::after {
-                        content: url("../../../public/images/decoration_line.png");
-                    
-                    }
-                }
-                .third_cards {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    margin-top: 2rem;
-                    margin-bottom: 2rem;
-                }
-                .third_bottom {
-                    display: flex;
-                    justify-content: space-between;
+                .third_title {
+                    width: 60%;
+                    text-align: center;
                     button {
                         background-color: $button;
                         border-radius: 30px;
@@ -233,137 +127,299 @@
                         }
                     }
                 }
+                .third_rightcornerbot {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+               
             }
         }
+    }
 
-        @media (max-width:599px) {
-            .third {
+@media (min-width: 600px) and (max-width: 1023px) {
+    .third {
+        display: flex;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-image: url("../../../public/images/main_bg.jpg");
+        .third_all {
+            width: 90%;
+            border: 1px solid grey;
+            background-color: white;
+            height: auto;
+            .third_top {
+                display: flex;
+                .third_leftcorner {
+                    width: 20%;
+                }
+                .third_title {
+                    padding-top: 2rem;
+                    font-family: 'Courgette', cursive;
+                    text-align: center;
+                    width: 60%;
+                    span {
+                        color: $taste;
+                    }
+                }
+                .third_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                }
+                .third_rightcorner {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .third_formulaire {
                 display: flex;
                 justify-content: center;
-                padding-top: 8rem;
-                background-image: url("../../../public/images/main_bg.jpg");
-                .third_all {
-                    width: 90%;
-                    border: 1px solid grey;
-                    background-color: white;
-                    height: 1695px;
-                    .third_top {
-                        display: flex;
-                        justify-content: space-between;
-                        .third_leftcorner {
-                            display: none;
-                        }
-                        .third_title {
-                            padding-top: 2rem;
-                            font-family: 'Courgette', cursive;
-                            text-align: center;
-                            h2 {
-                                font-size: 25px;
-                                padding-left: 0px;
-                                padding-right: 0px;
-                                width: 100%;
-                                span {
-                                    color: $taste;
-                                }
-                            }
-                            
-                        }
-                        .third_title::after {
-                            content: url("../../../public/images/decoration_line.png");
-                        }
-                        .third_rightcorner {
-                            display: none;
-                        }
-                    }
-                    .third_formulaire {
-                        display: flex;
-                        justify-content: center;
-                            .third_formulaire1 {
-                                height: 550px;
-                                background-image: url("../../../public/images/book_table_bg.jpg");
-                                background-size: cover;
-                                border-radius: 10px;
-                                width: 60%;
-                                display: flex;
-                                flex-direction: column;
-                                justify-content: space-evenly;
-                                
-                                .third_formulaire_title {
-                                    display: flex;
-                                    justify-content: center;
-                                    p {
-                                        color: white;
-                                    }
-                                }
-                                .third_formulaire_input {
-                                    display: flex;
-                                    justify-content: center;
-                                    .third_formulaire_input1 {
-                                        padding: 2rem;
-                                    }
-                                }
-                                .third_formulaire_button {
-                                    display: flex;
-                                    justify-content: center;
-                                    button {
-                                        background-color: $button;
-                                        border-radius: 30px;
-                                        padding-right: 2rem;
-                                        padding-left: 2rem;
-                                        padding-top: 1rem;
-                                        padding-bottom: 1rem;
-                                        border: transparent;
-                                        a {
-                                            text-decoration: none;
-                                            color: white; 
-                                        }
-                                    }
-                                }
-                            }
-                        }
-                    }
-                    .third_blog {
-                        padding-top: 4rem;
-                        display: flex;
-                        justify-content: center;
-                        .third_blog_title {
-                            h2 {
-                                font-family: 'Courgette', cursive;
-                                text-align: center;
-                                span {
-                                    color: $taste;
-                                    font-size: 40px;
-                                }
-                            }
-                        }
-                        .third_blog_title::after {
-                            content: url("../../../public/images/decoration_line.png");
-                        
-                        }
-                    }
-                    .third_cards {
+                    .third_formulaire1 {
+                        height: 550px;
+                        background-image: url("../../../public/images/book_table_bg.jpg");
+                        background-size: cover;
+                        border-radius: 10px;
+                        width: 60%;
                         display: flex;
                         flex-direction: column;
-                        align-items: center;
-                        margin-top: 2rem;
-                        margin-bottom: 2rem;
-                    }
-                    .third_bottom {
-                        display: flex;
-                        justify-content: space-between;
-                        button {
-                            background-color: $button;
-                            border-radius: 30px;
-                            padding-right: 2rem;
-                            padding-left: 2rem;
-                            padding-top: 1rem;
-                            padding-bottom: 1rem;
-                            border: transparent;
-                            a {
-                                text-decoration: none;
-                                color: white; 
+                        justify-content: space-evenly;
+                        
+                        .third_formulaire_title {
+                            display: flex;
+                            justify-content: center;
+                            p {
+                                color: white;
+                            }
+                        }
+                        .third_formulaire_input {
+                            display: flex;
+                            justify-content: center;
+                            .third_formulaire_input1 {
+                                padding: 2rem;
+                            }
+                        }
+                        .third_formulaire_button {
+                            display: flex;
+                            justify-content: center;
+                            button {
+                                background-color: $button;
+                                border-radius: 30px;
+                                padding-right: 2rem;
+                                padding-left: 2rem;
+                                padding-top: 1rem;
+                                padding-bottom: 1rem;
+                                border: transparent;
+                                a {
+                                    text-decoration: none;
+                                    color: white; 
+                                }
                             }
                         }
                     }
                 }
             }
+            .third_blog {
+                padding-top: 4rem;
+                display: flex;
+                justify-content: center;
+                .third_blog_title {
+                    h2 {
+                        font-family: 'Courgette', cursive;
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .third_blog_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                
+                }
+            }
+            .third_cards {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            .third_bottom {
+                display: flex;
+                .third_leftcornerbot {
+                    width: 20%;
+                }
+                .third_title {
+                    width: 60%;
+                    text-align: center;
+                    button {
+                        background-color: $button;
+                        border-radius: 30px;
+                        padding-right: 2rem;
+                        padding-left: 2rem;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                        border: transparent;
+                        a {
+                            text-decoration: none;
+                            color: white; 
+                        }
+                    }
+                }
+                .third_rightcornerbot {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                
+            }
+        }
+    }
+
+@media (max-width: 599px) {
+    .third {
+        display: flex;
+        justify-content: center;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+        background-image: url("../../../public/images/main_bg.jpg");
+        .third_all {
+            width: 90%;
+            border: 1px solid grey;
+            background-color: white;
+            height: auto;
+            .third_top {
+                display: flex;
+                .third_leftcorner {
+                    width: 20%;
+                }
+                .third_title {
+                    padding-top: 2rem;
+                    font-family: 'Courgette', cursive;
+                    text-align: center;
+                    width: 60%;
+                    span {
+                        color: $taste;
+                    }
+                }
+                .third_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+                .third_rightcorner {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+            }
+            .third_formulaire {
+                display: flex;
+                justify-content: center;
+                    .third_formulaire1 {
+                        height: auto;
+                        background-image: url("../../../public/images/book_table_bg.jpg");
+                        background-size: cover;
+                        border-radius: 10px;
+                        width: 60%;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-evenly;
+                        
+                        .third_formulaire_title {
+                            display: flex;
+                            justify-content: center;
+                            padding-top: 1rem;
+                            p {
+                                color: white;
+                                text-align: center;
+                            }
+                        }
+                        .third_formulaire_input {
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            .third_formulaire_input1 {
+                                padding: 1rem;
+                            }
+                        }
+                        .third_formulaire_button {
+                            display: flex;
+                            justify-content: center;
+                            padding-bottom: 1rem;
+                            button {
+                                background-color: $button;
+                                border-radius: 30px;
+                                padding-right: 2rem;
+                                padding-left: 2rem;
+                                padding-top: 1rem;
+                                padding-bottom: 1rem;
+                                border: transparent;
+                                a {
+                                    text-decoration: none;
+                                    color: white; 
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .third_blog {
+                padding-top: 4rem;
+                display: flex;
+                justify-content: center;
+                .third_blog_title {
+                    h2 {
+                        font-family: 'Courgette', cursive;
+                        text-align: center;
+                        span {
+                            color: $taste;
+                            font-size: 40px;
+                        }
+                    }
+                }
+                .third_blog_title::after {
+                    content: url("../../../public/images/decoration_line.png");
+                    display: flex;
+                    justify-content: center;
+                }
+            }
+            .third_cards {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-top: 2rem;
+                margin-bottom: 2rem;
+            }
+            .third_bottom {
+                display: flex;
+                .third_leftcornerbot {
+                    width: 20%;
+                }
+                .third_title {
+                    width: 60%;
+                    text-align: center;
+                    button {
+                        background-color: $button;
+                        border-radius: 30px;
+                        padding-right: 2rem;
+                        padding-left: 2rem;
+                        padding-top: 1rem;
+                        padding-bottom: 1rem;
+                        border: transparent;
+                        a {
+                            text-decoration: none;
+                            color: white; 
+                        }
+                    }
+                }
+                .third_rightcornerbot {
+                    width: 20%;
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                
+            }
+        }
+    }
