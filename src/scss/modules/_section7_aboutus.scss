@@ -1,0 +1,226 @@
+@media (min-width:1024px) {
+    .seventh {
+    height: 350px;
+    background-image: url("../../../public/images/footer_background.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    .seventh_aboutus {
+        width: 25%;
+        color: white;
+        padding-top: 2rem;
+        .aboutus_title {
+            padding-bottom: 2rem;
+        }
+        .aboutus_texte {
+            padding-bottom: 2rem;
+        }
+        .aboutus_icone {
+            i {
+                padding: 1rem;
+                font-size: 2rem;
+            }
+        }
+       
+    }
+    .seventh_instagram {
+        width: 25%;
+        color: white;
+        padding-top: 2rem;
+        .instagram_title {
+            padding-bottom: 2rem;
+        }
+        .instagram_photo {
+            display: flex;
+            flex-wrap: wrap;
+            .photo1 {
+                width: 20%;
+                height: 6rem;
+                background-image: url("../../../public/images/instragram_gallery_img1.jpg");
+                background-size: cover;
+                margin: 0.5rem;
+            }
+        }
+    }
+    .seventh_popular {
+        width: 25%;
+        color: white;
+        padding-top: 2rem;
+        .popular_title {
+            padding-bottom: 2rem;
+        }
+        .popular_tag {
+            padding-bottom: 2rem;
+            button {
+                padding: 0.5rem;
+                background-color: $taste;
+                border-radius: 20px;
+                border-color: white;
+                text-decoration: none;
+                list-style-type: none;
+                margin-bottom: 1rem;
+                a {
+                    color: white;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    }
+}
+
+@media (min-width: 600px) and (max-width:1023px) {
+    .seventh {
+    height: auto;
+    background-image: url("../../../public/images/footer_background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .seventh_aboutus {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .aboutus_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .aboutus_texte {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .aboutus_icone {
+            text-align: center;
+            i {
+                padding: 1rem;
+                font-size: 2rem;
+            }
+        }
+       
+    }
+    .seventh_instagram {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .instagram_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .instagram_photo {
+            display: flex;
+            flex-wrap : wrap;
+            .photo1 {
+                width: 25%;
+                height: 6rem;
+                background-image: url("../../../public/images/instragram_gallery_img1.jpg");
+                background-size: cover;
+                margin: 0.5rem;
+            }
+        }
+    }
+    .seventh_popular {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .popular_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .popular_tag {
+            padding-bottom: 2rem;
+            text-align: center;
+            button {
+                padding: 0.5rem;
+                background-color: $taste;
+                border-radius: 20px;
+                border-color: white;
+                text-decoration: none;
+                list-style-type: none;
+                margin-bottom: 1rem;
+                a {
+                    color: white;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    }
+}
+
+@media (max-width: 599px) {
+    .seventh {
+    height: auto;
+    background-image: url("../../../public/images/footer_background.jpg");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .seventh_aboutus {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .aboutus_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .aboutus_texte {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .aboutus_icone {
+            text-align: center;
+            i {
+                padding: 1rem;
+                font-size: 2rem;
+            }
+        }
+       
+    }
+    .seventh_instagram {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .instagram_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .instagram_photo {
+            display: flex;
+            flex-wrap : wrap;
+            .photo1 {
+                width: 40%;
+                height: 6rem;
+                background-image: url("../../../public/images/instragram_gallery_img1.jpg");
+                background-size: cover;
+                margin: 0.5rem;
+            }
+        }
+    }
+    .seventh_popular {
+        width: 50%;
+        color: white;
+        padding-top: 2rem;
+        .popular_title {
+            padding-bottom: 2rem;
+            text-align: center;
+        }
+        .popular_tag {
+            padding-bottom: 2rem;
+            text-align: center;
+            button {
+                padding: 0.5rem;
+                background-color: $taste;
+                border-radius: 20px;
+                border-color: white;
+                text-decoration: none;
+                list-style-type: none;
+                margin-bottom: 1rem;
+                a {
+                    color: white;
+                    margin: 1rem;
+                }
+            }
+        }
+    }
+    }
+}
