@@ -8,6 +8,8 @@
         .navbar {
             display: flex;
             justify-content: space-evenly;
+            position: sticky;
+            top: 10px;
             .navbar {
                 border-top: solid 1px white;
                 border-bottom: solid 1px white;
@@ -75,10 +77,22 @@
                     color: black;
                 }
             }
+            #one:hover {
+                background-color: $button;
+                a {
+                    color: white;
+                }
+            }
             #two {
                 background-color: $button;
                 a {
                     color: white;
+                }
+            }
+            #two:hover {
+                background-color: white;
+                a {
+                    color: black;
                 }
             }
         }

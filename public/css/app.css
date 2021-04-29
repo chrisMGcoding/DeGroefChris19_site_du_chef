@@ -16058,6 +16058,8 @@ h3 {
   header .navbar {
     display: flex;
     justify-content: space-evenly;
+    position: sticky;
+    top: 10px;
   }
   header .navbar .navbar {
     border-top: solid 1px white;
@@ -16124,11 +16126,23 @@ h3 {
   header .header_buttons #one a {
     color: black;
   }
+  header .header_buttons #one:hover {
+    background-color: #B12A3B;
+  }
+  header .header_buttons #one:hover a {
+    color: white;
+  }
   header .header_buttons #two {
     background-color: #B12A3B;
   }
   header .header_buttons #two a {
     color: white;
+  }
+  header .header_buttons #two:hover {
+    background-color: white;
+  }
+  header .header_buttons #two:hover a {
+    color: black;
   }
 }
 @media (max-width: 1023px) and (min-width: 600px) {
